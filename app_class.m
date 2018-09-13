@@ -6,13 +6,15 @@ classdef app_class
         Title
         Name
         Description
+        Authors
     end
 
     methods
-        function obj = app_class(title, name, description)
+        function obj = app_class(title, name, description, authors)
             obj.Title = title;
             obj.Name = name;
             obj.Description = description;
+            obj.Authors = authors;
         end
     end
 end
