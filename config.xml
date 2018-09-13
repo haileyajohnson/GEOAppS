@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<app>
-  <Name>HillDiff</Name>
-  <Title>Hillslope Diffusion</Title>
-  <Author>Peter N. Adams</Author>
-  <Author>Hailey Johnson</Author>
-  <Description>Description</Description>
-</app>
-<app>
-  <Name>PeakIso</Name>
-  <Title>Peak Isostasy</Title>
-  <Author>Peter N. Adams</Author>
-  <Author>Hailey Johnson</Author>
-  <Description>Description</Description>
-</app>
-<app>
-  <Name>Periglacial</Name>
-  <Title>Periglacial</Title>
-  <Author>Peter N. Adams</Author>
-  <Author>Hailey Johnson</Author>
-  <Description>Description</Description>
-</app>
+<applist>
+    <app>
+      <Name>HillDiff</Name>
+      <Title>Hillslope Diffusion</Title>
+      <Author>Peter N. Adams</Author>
+      <Author>Hailey Johnson</Author>
+      <Script>GUI_HillDiffSim</Script>
+      <Description>Description</Description>
+    </app>
+    <app>
+      <Name>PeakIso</Name>
+      <Title>Peak Isostasy</Title>
+      <Author>Peter N. Adams</Author>
+      <Author>Hailey Johnson</Author>
+      <Script>GUI_PeakIsoSim</Script>
+      <Description>Description</Description>
+    </app>
+    <app>
+      <Name>Periglacial</Name>
+      <Title>Periglacial</Title>
+      <Author>Peter N. Adams</Author>
+      <Author>Hailey Johnson</Author>
+      <Script>GUI_PeriglacialSim</Script>
+      <Description>Description</Description>
+    </app>
+</applist>
