@@ -13,7 +13,7 @@
       <Title>Peak Isostasy</Title>
       <Author>Peter N. Adams</Author>
       <Author>Hailey Johnson</Author>
-      <Script>GUI_PeakIsoSim</Script>
+      <Script>PeakIsoSim</Script>
       <Description>Description</Description>
     </app>
     <app>
