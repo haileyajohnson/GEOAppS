@@ -5,7 +5,7 @@
       <Title>Hillslope Diffusion</Title>
       <Author>Peter N. Adams</Author>
       <Author>Hailey Johnson</Author>
-      <Script>GUI_HillDiffSim</Script>
+      <Script>HillDiffSim</Script>
       <Description>Description</Description>
     </app>
     <app>
@@ -21,7 +21,7 @@
       <Title>Periglacial</Title>
       <Author>Peter N. Adams</Author>
       <Author>Hailey Johnson</Author>
-      <Script>GUI_PeriglacialSim</Script>
+      <Script>PeriglacialSim</Script>
       <Description>Description</Description>
     </app>
 </applist>
