@@ -6,7 +6,8 @@
       <Author>Peter N. Adams</Author>
       <Author>Hailey Johnson</Author>
       <Script>HillDiffSim</Script>
-      <Description>Description</Description>
+      <ImgSrc>hillslope.PNG</ImgSrc>
+      <Description>This model demonstrates the evolution of a landscape dominated by diffusive erosion,in which high relief areas are smoothed to yield a landscape with more rounded, gently sloping hills and valleys.</Description>
     </app>
     <app>
       <Name>PeakIso</Name>
