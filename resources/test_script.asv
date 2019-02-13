@@ -1,0 +1,46 @@
+% initialize
+slope = 0.01;
+step = 0.05;
+x = (0:step:15);
+y = (0:step:10);
+h = zeros(length(app.y), length(app.x));
+wave_angle_deep = -20;
+
+shoreline = 10.*sin*linspace(pi/2, 3*pi/2, lenth(x)) + 11;
+
+% build bathy grid
+for r = 1:length(y)
+    for col = 1:length(x)
+        if r <= shoreline(col)
+            h(r, col) = nan; % land
+        else
+            h(r, col) = -1000 * (step * slope) * (r - shoreline(col)); % depth (m)
+        end
+    end
+end
+
+% plot bathy
+hfig = figure();
+set(hfig, 'position', [200, 200, 500, 500]);       
+set(gca, 'color', 'yellow');
+contourf(x, y, h, 20);
+hold('on');
+plot(x, shoreline.*step, 'k-', 'linewidth', 2);
+
+% initialize wave vector
+crest_length = length(x)*x_step;
+crest_pos = linspace(0, crest_length, 20); 
+xdists = crest_pos.*cosd(wave_angle_deep);
+ydists = crest_pos.*sind(wave_angle_deep);
+app.y_pos = app.y(end)+ydists;
+
+% move wave crest to fit
+min_y = min(y_pos);
+if min_y < 6.5
+    y_pos = app.y_pos + (6.5 - min_y);
+    out_of_bounds = find (app.y_pos > app.y(end));
+    app.removeWaveRaysHelper(out_of_bounds);
+end
+
+% plot wave crest
+plot(ax, app.x_pos, app.y_pos, 'd-k', 'markerfacecolor', 'k', 'markersize', 6, 'linewidth', 2);    
