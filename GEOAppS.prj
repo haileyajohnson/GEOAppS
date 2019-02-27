@@ -1,0 +1,74 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1124015426" file="C:\Users\haile\Documents\models\GUI\GEOAppS\GEOAppS.prj" location="C:\Users\haile\Documents\models\GUI\GEOAppS" name="GEOAppS" target="target.mlapps" target-name="Package App">
+    <param.appname>GEOAppS</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\haile\Documents\models\GUI\GEOAppS</param.output>
+    <param.guid>d82a72fb-69c8-4731-8ee4-1199298cad4c</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\GEOAppS.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>C:\Users\haile\Documents\models\OpenEarth\matlab\applications\DelftDashBoard\general\fileio\xml2struct.m</file>
+      <file>C:\Users\haile\Documents\models\OpenEarth\matlab\general\string_fun\mkvar.m</file>
+    </fileset.depfun>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\app_class.m</file>
+      <file>${PROJECT_ROOT}\apps</file>
+      <file>${PROJECT_ROOT}\config.xml</file>
+      <file>${PROJECT_ROOT}\resources</file>
+      <file>${PROJECT_ROOT}\utils</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\haile\Documents\models\GUI" name="GEOAppS" optional="false">C:\Users\haile\Documents\models\GUI\GEOAppS</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2017b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
