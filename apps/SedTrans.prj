@@ -1,6 +1,6 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3412816403" file="C:\Users\hailey.johnson\Documents\models\GUI\apps\Refraction.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="Refraction" target="target.mlapps" target-name="Package App">
-    <param.appname>Refraction</param.appname>
+  <configuration build-checksum="3264929760" file="C:\Users\hailey.johnson\Documents\models\GUI\apps\SedTrans.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="SedTrans" target="target.mlapps" target-name="Package App">
+    <param.appname>SedTrans</param.appname>
     <param.authnamewatermark />
     <param.email />
     <param.company />
@@ -14,8 +14,8 @@
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\hailey.johnson\Documents\models\GUI\apps</param.output>
-    <param.guid>9535701f-a6fd-4696-b8a9-0588694eb912</param.guid>
+    <param.output>C:\Users\hailey.johnson\Documents\models\GUI\installFiles</param.output>
+    <param.guid>0fedaed4-a75f-419d-b518-f03e612d95af</param.guid>
     <unset>
       <param.authnamewatermark />
       <param.email />
@@ -30,22 +30,17 @@
       <param.products.id />
       <param.products.version />
       <param.platforms />
-      <param.output />
     </unset>
     <fileset.main>
-      <file>${PROJECT_ROOT}\Refraction.mlapp</file>
+      <file>${PROJECT_ROOT}\SedTrans.mlapp</file>
     </fileset.main>
     <fileset.depfun>
-      <file>${PROJECT_ROOT}\refracHelpApp.mlapp</file>
-    </fileset.depfun>
-    <fileset.resources>
       <file>C:\Users\hailey.johnson\Documents\models\GUI\resources\help_icon.png</file>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\utils\newton_raphson.m</file>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\utils\redblue.m</file>
-    </fileset.resources>
+    </fileset.depfun>
+    <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\hailey.johnson\Documents\models\GUI" name="apps" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\apps</file>
+      <file location="C:\Users\hailey.johnson\Documents\models\GUI" name="installFiles" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\installFiles</file>
     </build-deliverables>
     <workflow />
     <matlab>
