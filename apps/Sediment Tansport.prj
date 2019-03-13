@@ -1,12 +1,12 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3264929760" file="C:\Users\hailey.johnson\Documents\models\GUI\apps\SedTrans.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="SedTrans" target="target.mlapps" target-name="Package App">
-    <param.appname>SedTrans</param.appname>
-    <param.authnamewatermark />
-    <param.email />
+  <configuration build-checksum="3619324944" file="C:\Users\hailey.johnson\Documents\models\GUI\apps\Sediment Tansport.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="Sediment Tansport" target="target.mlapps" target-name="Package App">
+    <param.appname>Sediment Tansport</param.appname>
+    <param.authnamewatermark>Hailey Johnson</param.authnamewatermark>
+    <param.email>hailey.johnson@ufl.edu</param.email>
     <param.company />
     <param.icon />
     <param.icons />
-    <param.summary />
+    <param.summary>Wave-induce alongshore sediment transport</param.summary>
     <param.description />
     <param.screenshot />
     <param.version>1.0</param.version>
@@ -17,12 +17,9 @@
     <param.output>C:\Users\hailey.johnson\Documents\models\GUI\installFiles</param.output>
     <param.guid>0fedaed4-a75f-419d-b518-f03e612d95af</param.guid>
     <unset>
-      <param.authnamewatermark />
-      <param.email />
       <param.company />
       <param.icon />
       <param.icons />
-      <param.summary />
       <param.description />
       <param.screenshot />
       <param.version />
@@ -37,7 +34,9 @@
     <fileset.depfun>
       <file>C:\Users\hailey.johnson\Documents\models\GUI\resources\help_icon.png</file>
     </fileset.depfun>
-    <fileset.resources />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\sedTransHelpApp.mlapp</file>
+    </fileset.resources>
     <fileset.package />
     <build-deliverables>
       <file location="C:\Users\hailey.johnson\Documents\models\GUI" name="installFiles" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\installFiles</file>
