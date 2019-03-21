@@ -5,7 +5,7 @@ y = (0:1:50);
 h = zeros(length(y), length(x));
 wave_angle_deep = [0, 15, 45, 60];
 
-phases = linspace(pi/2, 3*pi/2, length(x));
+phases = linspace(pi/4, 7*pi/4, length(x));
 shoreline = -5.*sin(phases) + 7;
 angles = rad2deg(atan(-cos(phases)));
 
