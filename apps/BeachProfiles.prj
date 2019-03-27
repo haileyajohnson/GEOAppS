@@ -1,0 +1,85 @@
+<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\hailey.johnson\Documents\models\GUI\apps\BeachProfiles.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="BeachProfiles" target="target.webdeploy" target-name="Web App Compiler">
+    <param.appname>BeachProfiles</param.appname>
+    <param.version>1.1</param.version>
+    <param.displayname>The Bruun Rule</param.displayname>
+    <param.authnamewatermark />
+    <param.summary />
+    <param.screenshot>C:\Users\hailey.johnson\AppData\Local\Temp\tpf1f3903b_0893_41cf_b25f_e2b7f6e20d3d.png</param.screenshot>
+    <param.intermediate>${PROJECT_ROOT}\BeachProfiles</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\BeachProfiles</param.files.only>
+    <param.output />
+    <param.logdir>${PROJECT_ROOT}\BeachProfiles</param.logdir>
+    <param.target.type>subtarget.web.app</param.target.type>
+    <param.user.defined.mcr.options />
+    <param.support.packages />
+    <unset>
+      <param.authnamewatermark />
+      <param.summary />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.target.type />
+      <param.user.defined.mcr.options />
+      <param.support.packages />
+    </unset>
+    <fileset.web.main>
+      <file>${PROJECT_ROOT}\BeachProfiles.mlapp</file>
+    </fileset.web.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\profilesHelpApp.mlapp</file>
+      <file>C:\Users\hailey.johnson\Documents\models\GUI\resources\help_icon.png</file>
+    </fileset.resources>
+    <fileset.depfun />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\BeachProfiles" name="BeachProfiles.ctf" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\apps\BeachProfiles\BeachProfiles.ctf</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
