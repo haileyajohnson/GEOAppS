@@ -1,44 +1,46 @@
-<deployment-project plugin="plugin.webdeploy" plugin-version="1.0">
-  <configuration file="C:\Users\hailey.johnson\Documents\models\GUI\apps\BeachProfiles.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="BeachProfiles" target="target.webdeploy" target-name="Web App Compiler">
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="3760690498" file="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\apps\BeachProfiles.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\apps" name="BeachProfiles" target="target.mlapps" target-name="Package App">
     <param.appname>BeachProfiles</param.appname>
-    <param.version>1.1</param.version>
-    <param.displayname>The Bruun Rule</param.displayname>
-    <param.authnamewatermark />
-    <param.summary />
-    <param.screenshot>C:\Users\hailey.johnson\AppData\Local\Temp\tpf1f3903b_0893_41cf_b25f_e2b7f6e20d3d.png</param.screenshot>
-    <param.intermediate>${PROJECT_ROOT}\BeachProfiles</param.intermediate>
-    <param.files.only>${PROJECT_ROOT}\BeachProfiles</param.files.only>
-    <param.output />
-    <param.logdir>${PROJECT_ROOT}\BeachProfiles</param.logdir>
-    <param.target.type>subtarget.web.app</param.target.type>
-    <param.user.defined.mcr.options />
-    <param.support.packages />
+    <param.authnamewatermark>Hailey Johnson</param.authnamewatermark>
+    <param.email>hailey.johnson@ufl.edu</param.email>
+    <param.company>University of Florida</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>This model animates the evolution of an equilibrium beach profiles as it adjusts to changes in sea level, according to Bruun's rule.</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\static\profiles.jpg</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\installFiles</param.output>
+    <param.guid>0fedaed4-a75f-419d-b518-f03e612d95af</param.guid>
     <unset>
-      <param.authnamewatermark />
-      <param.summary />
-      <param.intermediate />
-      <param.files.only />
-      <param.output />
-      <param.logdir />
-      <param.target.type />
-      <param.user.defined.mcr.options />
-      <param.support.packages />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
     </unset>
-    <fileset.web.main>
+    <fileset.main>
       <file>${PROJECT_ROOT}\BeachProfiles.mlapp</file>
-    </fileset.web.main>
-    <fileset.resources>
+    </fileset.main>
+    <fileset.depfun>
       <file>${PROJECT_ROOT}\profilesHelpApp.mlapp</file>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\resources\help_icon.png</file>
-    </fileset.resources>
-    <fileset.depfun />
+      <file>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\static\help_icon.png</file>
+    </fileset.depfun>
+    <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="${PROJECT_ROOT}\BeachProfiles" name="BeachProfiles.ctf" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\apps\BeachProfiles\BeachProfiles.ctf</file>
+      <file location="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS" name="installFiles" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\installFiles</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2018b</root>
+      <root>C:\Program Files\MATLAB\R2019a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
@@ -75,7 +77,7 @@
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>6.1</osver>
+      <osver>10.0</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>win64</arch>

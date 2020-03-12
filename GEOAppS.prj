@@ -1,12 +1,12 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1124015426" file="C:\Users\haile\Documents\models\GUI\GEOAppS\GEOAppS.prj" location="C:\Users\haile\Documents\models\GUI\GEOAppS" name="GEOAppS" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2864893446" file="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\GEOAppS.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS" name="GEOAppS" target="target.mlapps" target-name="Package App">
     <param.appname>GEOAppS</param.appname>
-    <param.authnamewatermark />
-    <param.email />
-    <param.company />
+    <param.authnamewatermark>Hailey Johnson</param.authnamewatermark>
+    <param.email>hailey.johnson@ufl.edu</param.email>
+    <param.company>University of Florida</param.company>
     <param.icon />
     <param.icons />
-    <param.summary />
+    <param.summary>A suite of numerical models to help visualize and understand geomoprhic processes.</param.summary>
     <param.description />
     <param.screenshot />
     <param.version>1.0</param.version>
@@ -14,15 +14,11 @@
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\haile\Documents\models\GUI\GEOAppS</param.output>
+    <param.output>${PROJECT_ROOT}\installFiles</param.output>
     <param.guid>d82a72fb-69c8-4731-8ee4-1199298cad4c</param.guid>
     <unset>
-      <param.authnamewatermark />
-      <param.email />
-      <param.company />
       <param.icon />
       <param.icons />
-      <param.summary />
       <param.description />
       <param.screenshot />
       <param.version />
@@ -30,30 +26,51 @@
       <param.products.id />
       <param.products.version />
       <param.platforms />
-      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\GEOAppS.mlapp</file>
     </fileset.main>
-    <fileset.depfun>
-      <file>C:\Users\haile\Documents\models\OpenEarth\matlab\applications\DelftDashBoard\general\fileio\xml2struct.m</file>
-      <file>C:\Users\haile\Documents\models\OpenEarth\matlab\general\string_fun\mkvar.m</file>
-    </fileset.depfun>
+    <fileset.depfun />
     <fileset.resources>
       <file>${PROJECT_ROOT}\app_class.m</file>
       <file>${PROJECT_ROOT}\apps</file>
       <file>${PROJECT_ROOT}\config.xml</file>
-      <file>${PROJECT_ROOT}\resources</file>
+      <file>${PROJECT_ROOT}\static</file>
       <file>${PROJECT_ROOT}\utils</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\haile\Documents\models\GUI" name="GEOAppS" optional="false">C:\Users\haile\Documents\models\GUI\GEOAppS</file>
+      <file location="${PROJECT_ROOT}" name="installFiles" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\installFiles</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2017b</root>
-      <toolboxes />
+      <root>C:\Program Files\MATLAB\R2019a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
     </matlab>
     <platform>
       <unix>false</unix>
