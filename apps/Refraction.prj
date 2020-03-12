@@ -1,36 +1,30 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3412816403" file="C:\Users\hailey.johnson\Documents\models\GUI\apps\Refraction.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\apps" name="Refraction" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1490949411" file="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\apps\Refraction.prj" location="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\apps" name="Refraction" target="target.mlapps" target-name="Package App">
     <param.appname>Refraction</param.appname>
-    <param.authnamewatermark />
-    <param.email />
-    <param.company />
+    <param.authnamewatermark>Hailey Johnson</param.authnamewatermark>
+    <param.email>hailey.johnson@ufl.edu</param.email>
+    <param.company>University of Florida</param.company>
     <param.icon />
     <param.icons />
-    <param.summary />
+    <param.summary>This model demonstrates the evolution of wave rays over nearshore bathymetry.</param.summary>
     <param.description />
-    <param.screenshot />
+    <param.screenshot>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\static\refraction.JPG</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name />
     <param.products.id />
     <param.products.version />
     <param.platforms />
-    <param.output>C:\Users\hailey.johnson\Documents\models\GUI\apps</param.output>
+    <param.output>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\installFiles</param.output>
     <param.guid>9535701f-a6fd-4696-b8a9-0588694eb912</param.guid>
     <unset>
-      <param.authnamewatermark />
-      <param.email />
-      <param.company />
       <param.icon />
       <param.icons />
-      <param.summary />
       <param.description />
-      <param.screenshot />
       <param.version />
       <param.products.name />
       <param.products.id />
       <param.products.version />
       <param.platforms />
-      <param.output />
     </unset>
     <fileset.main>
       <file>${PROJECT_ROOT}\Refraction.mlapp</file>
@@ -39,27 +33,23 @@
       <file>${PROJECT_ROOT}\refracHelpApp.mlapp</file>
     </fileset.depfun>
     <fileset.resources>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\resources\help_icon.png</file>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\utils\newton_raphson.m</file>
-      <file>C:\Users\hailey.johnson\Documents\models\GUI\utils\redblue.m</file>
+      <file>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\static\help_icon.png</file>
+      <file>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\utils\newton_raphson.m</file>
+      <file>C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\utils\redblue.m</file>
     </fileset.resources>
     <fileset.package />
     <build-deliverables>
-      <file location="C:\Users\hailey.johnson\Documents\models\GUI" name="apps" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\apps</file>
+      <file location="C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS" name="installFiles" optional="false">C:\Users\hailey.johnson\Documents\models\GUI\GEOAppS\installFiles</file>
     </build-deliverables>
     <workflow />
     <matlab>
-      <root>C:\Program Files\MATLAB\R2017a</root>
+      <root>C:\Program Files\MATLAB\R2019a</root>
       <toolboxes>
-        <toolbox name="fixedpoint" />
         <toolbox name="matlabcoder" />
         <toolbox name="embeddedcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="neuralnetwork" />
       </toolboxes>
-      <toolbox>
-        <fixedpoint>
-          <enabled>true</enabled>
-        </fixedpoint>
-      </toolbox>
       <toolbox>
         <matlabcoder>
           <enabled>true</enabled>
@@ -69,6 +59,16 @@
         <embeddedcoder>
           <enabled>true</enabled>
         </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
@@ -80,7 +80,7 @@
       <vista>false</vista>
       <linux>false</linux>
       <solaris>false</solaris>
-      <osver>6.1</osver>
+      <osver>10.0</osver>
       <os32>false</os32>
       <os64>true</os64>
       <arch>win64</arch>
