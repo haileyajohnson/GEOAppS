@@ -1,6 +1,6 @@
 # GEOAppS
 
-The Geoscience Experiements and Observations Application Suite (GEOAppS) is a collection of interactive numerical models that provide visualizations of coastal processes. The suite can be customized to include/exclude models by updated the config.xml.
+The Geoscience Experiments and Observations Application Suite (GEOAppS) is a collection of interactive numerical models that provide visualizations of coastal processes. The suite can be customized to include/exclude models by updated the config.xml.
 The current models included by default are:
 * Wave refraction
 * Wave-induced alongshore sediment transport
