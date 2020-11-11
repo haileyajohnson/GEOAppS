@@ -2,12 +2,12 @@
 <applist>
     <app>
       <Name>Refraction</Name>
-      <Title>Wave Refractions</Title>
+      <Title>Wave Refraction</Title>
       <Author>Hailey Johnson</Author>
       <Script>Refraction</Script>
       <ImgSrc>refraction.JPG</ImgSrc>
-      <Description>This model demonstrates the evolution 
-      of wave rays over nearshore bathymetry.</Description>
+      <Description>This model demonstrates the evolution of wave rays over nearshore
+        bathymetry.</Description>
     </app>
     <app>
       <Name>SedTrans</Name>
@@ -15,9 +15,8 @@
       <Author>Hailey Johnson</Author>
       <Script>SedTrans</Script>
       <ImgSrc>sed_trans.jpg</ImgSrc>
-      <Description>This model shows the potential for alongshore
-      sediment transport potential and gradients as a function 
-      of wave angle and height.</Description>
+      <Description>This model shows the potential for alongshore sediment transport potential
+        and gradients as a function of wave angle and height.</Description>
     </app>
     <app>
       <Name>Profiles</Name>
@@ -25,9 +24,8 @@
       <Author>Hailey Johnson</Author>
       <Script>BeachProfiles</Script>
       <ImgSrc>profiles.jpg</ImgSrc>
-      <Description>This model animates the evolution of an 
-      equilibrium beach profiles as it adjusts to changes in sea level, 
-      according to Bruun's rule.</Description>
+      <Description>This model animates the evolution of an equilibrium beach profiles as it adjusts
+        to changes in sea level, according to Bruun's rule.</Description>
     </app>
     <app>
       <Name>Cliffs</Name>
@@ -35,7 +33,7 @@
       <Author>Hailey Johnson</Author>
       <Script>SeaCliffs</Script>
       <ImgSrc>cliffs.jpg</ImgSrc>
-      <Description>This model animates the process of sea cliff 
-      retreat due to wave action and notch erosion.</Description>
+      <Description>This model animates the process of sea cliff retreat due to wave action
+        and notch erosion.</Description>
     </app>
 </applist>
